@@ -1,0 +1,350 @@
+{
+  "picBed": {
+    "current": "piclist",
+    "uploader": "piclist",
+    "smms": {
+      "token": "",
+      "_configName": "Default",
+      "_id": "5fa8ac2d-09a7-4ad8-860e-9b1656eef61c",
+      "_createdAt": 1757859486346,
+      "_updatedAt": 1757859486346
+    },
+    "piclist": {
+      "_configName": "MzzY",
+      "_id": "580b35ef-bf86-4b76-853a-ee0621cec8d3",
+      "_createdAt": 1757859268034,
+      "_updatedAt": 1757859472858,
+      "host": "127.0.0.1",
+      "port": 36677,
+      "picbed": "github",
+      "configName": "gihub",
+      "serverKey": "1234"
+    },
+    "lskyplist": {
+      "_configName": "Default",
+      "_id": "fb82704c-72ac-4f2a-9fac-a96adece0cdf",
+      "_createdAt": 1757859332496,
+      "_updatedAt": 1757859332496
+    },
+    "imgur": {
+      "_configName": "Default",
+      "_id": "266f1bdc-77cd-4938-b9e8-3ff4b2cb510c",
+      "_createdAt": 1757859333024,
+      "_updatedAt": 1757859333024
+    },
+    "github": {
+      "_configName": "Default",
+      "_id": "a27a7e8a-3294-4504-9a04-01aeb71b8952",
+      "_createdAt": 1757859333415,
+      "_updatedAt": 1757859333415
+    },
+    "alistplist": {
+      "_configName": "Default",
+      "_id": "e6626cc0-3085-4ab3-a672-c4e80648f5c4",
+      "_createdAt": 1757859343239,
+      "_updatedAt": 1757859343239
+    },
+    "tcyun": {
+      "_configName": "Default",
+      "_id": "68c127f6-50bf-4577-8750-0efbe440ba22",
+      "_createdAt": 1757859482564,
+      "_updatedAt": 1757859482564
+    },
+    "advancedplist": {
+      "_configName": "Default",
+      "_id": "573a7cf6-3998-429a-bca1-4ea32e579e98",
+      "_createdAt": 1757859483096,
+      "_updatedAt": 1757859483096
+    },
+    "aliyun": {
+      "_configName": "Default",
+      "_id": "2b206660-3ffd-4de9-8a0e-5091bcb83919",
+      "_createdAt": 1757859483999,
+      "_updatedAt": 1757859483999
+    },
+    "list": [
+      {
+        "type": "tcyun",
+        "name": "腾讯云COS",
+        "visible": true
+      },
+      {
+        "type": "advancedplist",
+        "name": "高级自定义",
+        "visible": true
+      },
+      {
+        "type": "alistplist",
+        "name": "AList",
+        "visible": true
+      },
+      {
+        "type": "aliyun",
+        "name": "阿里云OSS",
+        "visible": true
+      },
+      {
+        "type": "aws-s3-plist",
+        "name": "AWS S3",
+        "visible": true
+      },
+      {
+        "type": "github",
+        "name": "GitHub",
+        "visible": true
+      },
+      {
+        "type": "imgur",
+        "name": "Imgur",
+        "visible": true
+      },
+      {
+        "type": "local",
+        "name": "本地上传",
+        "visible": true
+      },
+      {
+        "type": "lskyplist",
+        "name": "兰空图床",
+        "visible": true
+      },
+      {
+        "type": "piclist",
+        "name": "PicList",
+        "visible": true
+      },
+      {
+        "type": "qiniu",
+        "name": "七牛云",
+        "visible": true
+      },
+      {
+        "type": "sftpplist",
+        "name": "内置SFTP",
+        "visible": true
+      },
+      {
+        "type": "smms",
+        "name": "SM.MS",
+        "visible": true
+      },
+      {
+        "type": "upyun",
+        "name": "又拍云",
+        "visible": true
+      },
+      {
+        "type": "webdavplist",
+        "name": "WebDAV",
+        "visible": true
+      }
+    ]
+  },
+  "settings": {
+    "shortKey": {
+      "picgo:upload": {
+        "enable": true,
+        "key": "Alt+2",
+        "name": "upload",
+        "label": "QUICK_UPLOAD"
+      }
+    },
+    "server": {
+      "port": 36677,
+      "host": "0.0.0.0",
+      "enable": true
+    },
+    "isListeningClipboard": false,
+    "showUpdateTip": true,
+    "galleryPicBedFilter": [],
+    "autoStart": false,
+    "sync": {
+      "type": "github",
+      "username": "MzzY67",
+      "repo": "my-first-project",
+      "branch": "feature/login",
+      "token": "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",
+      "endpoint": "",
+      "proxy": "",
+      "interval": 60,
+      "webdavEndpoint": "",
+      "webdavUsername": "",
+      "webdavPassword": "",
+      "webdavAuthType": "basic",
+      "webdavSslEnabled": true,
+      "webdavSavePath": ""
+    }
+  },
+  "picgoPlugins": {},
+  "debug": true,
+  "PICGO_ENV": "GUI",
+  "needReload": false,
+  "buildIn": {
+    "compress": {
+      "quality": 100,
+      "qualityMap": {},
+      "isConvert": false,
+      "isConvertMap": {},
+      "convertFormat": "jpg",
+      "convertFormatMap": {},
+      "isReSize": false,
+      "isReSizeMap": {},
+      "reSizeWidth": 500,
+      "reSizeWidthMap": {},
+      "reSizeHeight": 500,
+      "reSizeHeightMap": {},
+      "skipReSizeOfSmallImg": false,
+      "skipReSizeOfSmallImgMap": {},
+      "isReSizeByPercent": false,
+      "isReSizeByPercentMap": {},
+      "reSizePercent": 50,
+      "reSizePercentMap": {},
+      "isRotate": false,
+      "isRotateMap": {},
+      "rotateDegree": 0,
+      "rotateDegreeMap": {},
+      "isRemoveExif": false,
+      "isRemoveExifMap": {},
+      "isFlip": false,
+      "isFlipMap": {},
+      "isFlop": false,
+      "isFlopMap": {},
+      "formatConvertObj": {},
+      "formatConvertObjMap": {}
+    },
+    "watermark": {
+      "isAddWatermark": true,
+      "isAddWatermarkMap": {},
+      "watermarkType": "text",
+      "watermarkTypeMap": {},
+      "isFullScreenWatermark": true,
+      "isFullScreenWatermarkMap": {},
+      "watermarkDegree": 31,
+      "watermarkDegreeMap": {},
+      "watermarkText": "枳🐱ovo独家水印",
+      "watermarkTextMap": {},
+      "watermarkFontPath": "",
+      "watermarkFontPathMap": {},
+      "watermarkScaleRatio": 0.12,
+      "watermarkScaleRatioMap": {},
+      "watermarkColor": "#CCCCCC73",
+      "watermarkColorMap": {},
+      "watermarkImagePath": "",
+      "watermarkImagePathMap": {},
+      "watermarkPosition": "southeast",
+      "watermarkPositionMap": {},
+      "watermarkImageOpacity": 255,
+      "watermarkImageOpacityMap": {}
+    },
+    "skipProcess": {
+      "skipProcessExtList": "zip,rar,7z,tar,gz,tar.gz,tar.bz2,tar.xz"
+    }
+  },
+  "uploader": {
+    "piclist": {
+      "configList": [
+        {
+          "_configName": "MzzY",
+          "_id": "580b35ef-bf86-4b76-853a-ee0621cec8d3",
+          "_createdAt": 1757859268034,
+          "_updatedAt": 1757859472858,
+          "host": "127.0.0.1",
+          "port": 36677,
+          "picbed": "github",
+          "configName": "gihub",
+          "serverKey": "1234"
+        }
+      ],
+      "defaultId": "580b35ef-bf86-4b76-853a-ee0621cec8d3"
+    },
+    "lskyplist": {
+      "configList": [
+        {
+          "_configName": "Default",
+          "_id": "fb82704c-72ac-4f2a-9fac-a96adece0cdf",
+          "_createdAt": 1757859332496,
+          "_updatedAt": 1757859332496
+        }
+      ],
+      "defaultId": "fb82704c-72ac-4f2a-9fac-a96adece0cdf"
+    },
+    "imgur": {
+      "configList": [
+        {
+          "_configName": "Default",
+          "_id": "266f1bdc-77cd-4938-b9e8-3ff4b2cb510c",
+          "_createdAt": 1757859333024,
+          "_updatedAt": 1757859333024
+        }
+      ],
+      "defaultId": "266f1bdc-77cd-4938-b9e8-3ff4b2cb510c"
+    },
+    "github": {
+      "configList": [
+        {
+          "_configName": "Default",
+          "_id": "a27a7e8a-3294-4504-9a04-01aeb71b8952",
+          "_createdAt": 1757859333415,
+          "_updatedAt": 1757859333415
+        }
+      ],
+      "defaultId": "a27a7e8a-3294-4504-9a04-01aeb71b8952"
+    },
+    "alistplist": {
+      "configList": [
+        {
+          "_configName": "Default",
+          "_id": "e6626cc0-3085-4ab3-a672-c4e80648f5c4",
+          "_createdAt": 1757859343239,
+          "_updatedAt": 1757859343239
+        }
+      ],
+      "defaultId": "e6626cc0-3085-4ab3-a672-c4e80648f5c4"
+    },
+    "tcyun": {
+      "configList": [
+        {
+          "_configName": "Default",
+          "_id": "68c127f6-50bf-4577-8750-0efbe440ba22",
+          "_createdAt": 1757859482564,
+          "_updatedAt": 1757859482564
+        }
+      ],
+      "defaultId": "68c127f6-50bf-4577-8750-0efbe440ba22"
+    },
+    "advancedplist": {
+      "configList": [
+        {
+          "_configName": "Default",
+          "_id": "573a7cf6-3998-429a-bca1-4ea32e579e98",
+          "_createdAt": 1757859483096,
+          "_updatedAt": 1757859483096
+        }
+      ],
+      "defaultId": "573a7cf6-3998-429a-bca1-4ea32e579e98"
+    },
+    "aliyun": {
+      "configList": [
+        {
+          "_configName": "Default",
+          "_id": "2b206660-3ffd-4de9-8a0e-5091bcb83919",
+          "_createdAt": 1757859483999,
+          "_updatedAt": 1757859483999
+        }
+      ],
+      "defaultId": "2b206660-3ffd-4de9-8a0e-5091bcb83919"
+    },
+    "smms": {
+      "configList": [
+        {
+          "token": "",
+          "_configName": "Default",
+          "_id": "5fa8ac2d-09a7-4ad8-860e-9b1656eef61c",
+          "_createdAt": 1757859486346,
+          "_updatedAt": 1757859486346
+        }
+      ],
+      "defaultId": "5fa8ac2d-09a7-4ad8-860e-9b1656eef61c"
+    }
+  }
+}
